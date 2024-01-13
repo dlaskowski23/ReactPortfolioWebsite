@@ -8,7 +8,7 @@ import FishingIcon from "../app/attachments/AboutMe/fishingIcon.png";
 
 import PythonIcon from "../app/attachments/SkillsIcons/Languages/python.png";
 import CIcon from "../app/attachments/SkillsIcons/Languages/C.png";
-import JavaIcon from "../app/attachments/SkillsIcons/Languages/java.png";
+import JavaIcon from "../app/attachments/SkillsIcons/Languages/Java.png";
 import CPPIcon from "../app/attachments/SkillsIcons/Languages/cpp.png";
 import CSSIcon from "../app/attachments/SkillsIcons/Languages/CSS3.png";
 import HTMLIcon from "../app/attachments/SkillsIcons/Languages/HTML5.png";
