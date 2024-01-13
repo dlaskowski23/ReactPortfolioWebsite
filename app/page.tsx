@@ -1,5 +1,3 @@
-"use client";
-
 import NavBar from "./navbar";
 
 import Image from "next/image";
@@ -24,14 +22,17 @@ import { AiFillGithub } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
 import Particles from "../app/components/Particles";
-import AutoType from "../app/components/autoType";
-import { Html } from "next/document";
+import dynamic from 'next/dynamic'
+
+const AutoType = dynamic(() => import('../app/components/autoType'), {
+  ssr: false,
+});
 
 function Home() {
   return (
     <main className="bg-black">
       <NavBar />
-      <section className="relative min-h-screen flex flex-col items-center justify-center py-10 px-4 bg-slate-500">
+      <section className="relative min-h-screen flex flex-col items-center justify-center py-10 px-4 ">
         <div className="absolute inset-0 w-full h-full">
           <Particles />
         </div>
@@ -105,7 +106,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       <section className="flex flex-col items-center justify-center py-10 px-4">
         <h1 className="text-white font-semibold text-5xl mt-10 z-10">Skills</h1>
         <h2 className="text-white font-semibold text-3xl mb-10 z-10">___</h2>
