@@ -259,7 +259,7 @@ function Home() {
           <h2 className="text-white font-semibold text-3xl mb-3 z-10">~</h2>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl hover:scale-110 transition-transform">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={SpaceCoordPic}
@@ -291,7 +291,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl hover:scale-110 transition-transform">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={GlobalTempPic}
@@ -316,7 +316,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl hover:scale-110 transition-transform">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={LexicalAnalyzerPic}
