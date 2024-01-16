@@ -94,7 +94,7 @@ function Home() {
         <h1 className="text-white font-bold text-5xl mt-10 z-10">
           About Me
         </h1>
-        <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
+        <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10">
           <div className="mx-auto">
             <Image
@@ -144,82 +144,82 @@ function Home() {
         id="skills"
       >
         <h1 className="text-white font-bold text-5xl mt-10 z-10">Skills</h1>
-        <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
+        <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">Languages</h3>
         
         <div className="grid grid-cols-3 md:grid-cols-3 gap-10 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PythonIcon} alt="Python Icon" />
-            <h1 className="text-xl font-semibold mt-2 text-center">Python</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Python</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={JavaIcon} alt="Java Icon" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">Java</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Java</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={CIcon} alt="C Icon" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">C</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">C</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={CPPIcon} alt="CPP Icon" />
-            <h1 className="text-xl font-semibold mt-2 text-center">C++</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">C++</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={HTMLIcon} alt="HTML Icon" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">HTML</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">HTML</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={CSSIcon} alt="CSS Icon" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">CSS</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">CSS</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={JSIcon} alt="JS Icon" />
-            <h1 className="text-xl font-semibold mt-2 text-center">JavaScript</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">JavaScript</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={SQLIcon} width={128} alt="SQL Icon" />
-            <h1 className="text-xl font-semibold mt-2 text-center">SQL</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">SQL</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={BashIcon} width={128} alt="Bash Icon" />
-            <h1 className="text-xl font-semibold mt-2 text-center">Bash</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Bash</h1>
           </div>
         </div>
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">
           Libraries & Frameworks
         </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mx-auto p-4 z-10 mt-6">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-8 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TypeScriptIcon} alt="TypeScript Icon" className="fill-current" />
-            <h1 className="text-xl font-semibold mt-2 text-center">TypeScript</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">TypeScript</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TailwindIcon} alt="MySQL Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">Tailwind CSS</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Tailwind CSS</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={ReactIcon} alt="React Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">ReactJS</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">ReactJS</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={BootStrapIcon}  alt="BootStrap Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">BootStrap</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">BootStrap</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={NextJsIcon} alt="NextJS Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">NextJS</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">NextJS</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PandasIcon} alt="Pandas Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">Pandas</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Pandas</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PlotyIcon} alt="Matplotlib" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">Matplotlib</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Matplotlib</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={MySQLIcon} alt="MySQL Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">mySQL</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">mySQL</h1>
           </div>
         </div>
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">
@@ -228,27 +228,27 @@ function Home() {
         <div className="grid grid-cols-3 md:grid-cols-3 gap-8 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={GitHubIcon} alt="GitHub" className="fill-current" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">GitHub</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">GitHub</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={GitIcon} alt="Git" className="fill-current" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">Git</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Git</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={JupyterIcon} alt="Jupyter" className="fill-current" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">Jupyter</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Jupyter</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={LinuxIcon} alt="Linux" className="fill-current" width={128}/>
-            <h1 className="text-xl font-semibold mt-2 text-center">Linux</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Linux</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={VSCodeIcon} alt="VScode" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">VScode</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">VScode</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={VercelIcon} alt="Vercel Icon" className="fill-current" width={128} />
-            <h1 className="text-xl font-semibold mt-2 text-center">Vercel</h1>
+            <h1 className="text-lg font-semibold mt-2 text-center">Vercel</h1>
           </div>
         </div>
       </section>
