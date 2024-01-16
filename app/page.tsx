@@ -107,11 +107,10 @@ function Home() {
           </div>
           <div className="flex flex-1 flex-col items-center">
             <p className="text-white text-2xl text-center ml-6 mb-6">
-              Hi! I'm David Laskowski. I'm currently an Undergraduate Computer
-              Science Student at the New Jersey Institute of Technology. I will
-              be graduating in May 2025 with a Bachelors of Science in Computer
+              Hi! I'm David Laskowski. I'm currently an undergraduate student at the New Jersey Institute of Technology. I will
+              be graduating in May 2025 with a Bachelor of Science in Computer
               Science. I have had a passion for problem-solving and creating,
-              which I plan to pursue that as a career in Software Engineering or
+              which I plan to pursue as a career in Software Engineering or
               Cyber Security. Some of my hobbies include snowboarding, fitness,
               and fishing.
             </p>
@@ -306,8 +305,8 @@ function Home() {
             <p className="text-black text-xl text-center  mb-6 md:mb-12">
               My group and I completed our data science project analyzing the recorded global temperature dataset from UC Berkeley.
               The aim is to uncover trends and patterns in global temperatures over time using advanced 
-              statistical and machine learning techniques which were simple linear regression and Random Forest algorithm.
-              We used Jupyter Notebooks' execuiting cells in sequence and python with the following libraries for the algorithms and visualization;
+              statistical and machine learning techniques like what we used, simple linear regression, and Random Forest algorithm.
+              We used Jupyter Notebooks' executing cells in sequence and Python with the following libraries for the algorithms and visualization;
               pandas, numpy, sklearn, matplotlib.
             </p>
             <div className="flex justify-center space-x-5">
@@ -334,7 +333,7 @@ function Home() {
               provided by adjacent tokens to detect and describe errors. Designed 
               to comprehend an untyped language, it handles strings, integers,
               real numbers, comments, and basic conditional constructs. The second layer, 
-              a recursive descent parser, refines this process by cross-referencing tokens 
+              a recursive descent parser refines this process by cross-referencing tokens 
               with grammatical structures to pinpoint syntax errors. Finally, the interpreter 
               unifies these functionalities, executing code while simultaneously verifying 
               syntactic correctness, thereby elevating the system from mere analysis to 
