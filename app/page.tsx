@@ -188,7 +188,7 @@ function Home() {
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">
           Libraries & Frameworks
         </h3>
-        <div className="grid grid-cols-3 md:grid-cols-4 gap-8 mx-auto p-4 z-10 mt-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TypeScriptIcon} alt="TypeScript Icon" className="fill-current" />
             <h1 className="text-xl font-semibold mt-2 text-center">TypeScript</h1>
