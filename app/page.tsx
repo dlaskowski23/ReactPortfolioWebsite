@@ -144,7 +144,7 @@ function Home() {
         id="skills"
       >
         <h1 className="text-white font-bold text-5xl mt-10 z-10">Skills</h1>
-        <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
+        <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">Languages</h3>
         
         <div className="grid grid-cols-3 md:grid-cols-3 gap-10 mx-auto p-4 z-10 mt-6">
@@ -174,7 +174,7 @@ function Home() {
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={JSIcon} alt="JS Icon" />
-            <h1 className="text-lg font-semibold mt-2 text-center">JavaScript</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">JavaScript</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md hover:scale-110 transition-transform">
             <Image src={SQLIcon} width={128} alt="SQL Icon" />
@@ -191,7 +191,7 @@ function Home() {
         <div className="grid grid-cols-3 md:grid-cols-4 gap-8 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TypeScriptIcon} alt="TypeScript Icon" className="fill-current" />
-            <h1 className="text-lg font-semibold mt-2 text-center">TypeScript</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">TypeScript</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TailwindIcon} alt="MySQL Icon" className="fill-current" width={128} />
@@ -203,7 +203,7 @@ function Home() {
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={BootStrapIcon}  alt="BootStrap Icon" className="fill-current" width={128} />
-            <h1 className="text-lg font-semibold mt-2 text-center">BootStrap</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">BootStrap</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={NextJsIcon} alt="NextJS Icon" className="fill-current" width={128} />
@@ -215,7 +215,7 @@ function Home() {
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PlotyIcon} alt="Matplotlib" className="fill-current" width={128} />
-            <h1 className="text-lg font-semibold mt-2 text-center">Matplotlib</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">Matplotlib</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={MySQLIcon} alt="MySQL Icon" className="fill-current" width={128} />
