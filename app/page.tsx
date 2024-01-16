@@ -79,7 +79,7 @@ function Home() {
             <a href="https://github.com/dlaskowski23" target="_blank">
               <AiFillGithub className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
             </a>
-            <a href="../app/attachments/SkillsIcons/Home/DavidLaskowskiResume.pdf" target="_blank">
+            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">
               <CgFileDocument className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
             </a>
 
@@ -357,10 +357,10 @@ function Home() {
         </p>
         <div className="mt-6 z-10 text-white space-x-5">
           <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
-            <a href="../app/attachments/SkillsIcons/Home/DavidLaskowskiResume.pdf" target="_blank">VIEW</a>
+            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">VIEW</a>
           </button>
           <button className="mt-6 rounded-2xl border py-1 px-4  hover:scale-110 transition-transform">
-            <a href="../app/attachments/SkillsIcons/Home/DavidLaskowskiResume.pdf" download="DavidLaskowskiResume">DOWNLOAD</a>
+            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">DOWNLOAD</a>
           </button>
         </div>
       </section>
