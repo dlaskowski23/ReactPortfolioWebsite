@@ -79,7 +79,7 @@ function Home() {
             <a href="https://github.com/dlaskowski23" target="_blank">
               <AiFillGithub className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
             </a>
-            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">
+            <a href="/attachments/DavidLaskowskiResume.pdf" target="_blank">
               <CgFileDocument className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
             </a>
 
@@ -94,7 +94,7 @@ function Home() {
         <h1 className="text-white font-bold text-5xl mt-10 z-10">
           About Me
         </h1>
-        <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
+        <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10">
           <div className="mx-auto">
             <Image
@@ -109,9 +109,9 @@ function Home() {
             <p className="text-white text-2xl text-center ml-6 mb-6">
               Hi! I'm David Laskowski. I'm currently an Undergraduate Computer
               Science Student at the New Jersey Institute of Technology. I will
-              be graduating in May 2025 with a Bachelor of Science in Computer
+              be graduating in May 2025 with a Bachelors of Science in Computer
               Science. I have had a passion for problem-solving and creating,
-              which I plan to pursue as a career in Software Engineering or
+              which I plan to pursue that as a career in Software Engineering or
               Cyber Security. Some of my hobbies include snowboarding, fitness,
               and fishing.
             </p>
@@ -191,7 +191,7 @@ function Home() {
         <div className="grid grid-cols-3 md:grid-cols-4 gap-2 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TypeScriptIcon} alt="TypeScript Icon" className="fill-current" />
-            <h1 className="text-lg font-semibold mt-2 text-center">TypeScript</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">TypeScript</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TailwindIcon} alt="MySQL Icon" className="fill-current" width={128} />
@@ -203,7 +203,7 @@ function Home() {
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={BootStrapIcon}  alt="BootStrap Icon" className="fill-current" width={128} />
-            <h1 className="text-lg font-semibold mt-2 text-center">BootStrap</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">BootStrap</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={NextJsIcon} alt="NextJS Icon" className="fill-current" width={128} />
@@ -215,7 +215,7 @@ function Home() {
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PlotyIcon} alt="Matplotlib" className="fill-current" width={128} />
-            <h1 className="text-lg font-semibold mt-2 text-center">Matplotlib</h1>
+            <h1 className="text-lg font-semibold mt-2 md:text-center text-left">Matplotlib</h1>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={MySQLIcon} alt="MySQL Icon" className="fill-current" width={128} />
@@ -260,7 +260,7 @@ function Home() {
           <h2 className="text-white font-semibold text-3xl mb-3 z-10">~</h2>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl hover:scale-110 transition-transform">
           <div className="mx-auto">
             <Image
               src={SpaceCoordPic}
@@ -292,7 +292,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl hover:scale-110 transition-transform">
           <div className="mx-auto">
             <Image
               src={GlobalTempPic}
@@ -306,8 +306,8 @@ function Home() {
             <p className="text-black text-xl text-center  mb-6 md:mb-12">
               My group and I completed our data science project analyzing the recorded global temperature dataset from UC Berkeley.
               The aim is to uncover trends and patterns in global temperatures over time using advanced 
-              statistical and machine learning techniques were simple linear regression and Random Forest algorithm.
-              We used Jupyter Notebooks' executing cells in sequence and Python with the following libraries for the algorithms and visualization;
+              statistical and machine learning techniques which were simple linear regression and Random Forest algorithm.
+              We used Jupyter Notebooks' execuiting cells in sequence and python with the following libraries for the algorithms and visualization;
               pandas, numpy, sklearn, matplotlib.
             </p>
             <div className="flex justify-center space-x-5">
@@ -317,7 +317,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
+        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl hover:scale-110 transition-transform">
           <div className="mx-auto">
             <Image
               src={LexicalAnalyzerPic}
@@ -334,7 +334,7 @@ function Home() {
               provided by adjacent tokens to detect and describe errors. Designed 
               to comprehend an untyped language, it handles strings, integers,
               real numbers, comments, and basic conditional constructs. The second layer, 
-              a recursive descent parser refines this process by cross-referencing tokens 
+              a recursive descent parser, refines this process by cross-referencing tokens 
               with grammatical structures to pinpoint syntax errors. Finally, the interpreter 
               unifies these functionalities, executing code while simultaneously verifying 
               syntactic correctness, thereby elevating the system from mere analysis to 
@@ -357,10 +357,10 @@ function Home() {
         </p>
         <div className="mt-6 z-10 text-white space-x-5">
           <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
-            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">VIEW</a>
+            <a href="/attachments/DavidLaskowskiResume.pdf" target="_blank">VIEW</a>
           </button>
           <button className="mt-6 rounded-2xl border py-1 px-4  hover:scale-110 transition-transform">
-            <a href="https://drive.google.com/file/d/13fn8-feMC8p25veWxYU0yzVqu3SVUvAN/view?usp=drive_link" target="_blank">DOWNLOAD</a>
+            <a href="/attachments/DavidLaskowskiResume.pdf" download="DavidLaskowskiResume">DOWNLOAD</a>
           </button>
         </div>
       </section>
