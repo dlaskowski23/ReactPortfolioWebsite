@@ -33,8 +33,8 @@ const Navbar = () => {
               <a href="#aboutme" className="hover:text-gray-300">About Me</a>
               <a href="#skills" className="hover:text-gray-300">Skills</a>
               <a href="#projects" className="hover:text-gray-300">Projects</a>
-              <a href="#education" className="hover:text-gray-300">Education</a>
-              <a href="#experience" className="hover:text-gray-300">Experience</a>
+              <a href="#education&experience" className="hover:text-gray-300">Education</a>
+              <a href="#education&experience" className="hover:text-gray-300">Experience</a>
               <a href="#contact" className="hover:text-gray-300">Contact</a>
             </div>
             <button
