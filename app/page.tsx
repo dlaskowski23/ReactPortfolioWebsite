@@ -379,7 +379,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center justify-center mt-52 px-4" id="education">
+      <section className="flex flex-col items-center justify-center mt-52 px-4" id="education&experience">
         <h1 className="text-white font-bold text-5xl mt-10 z-10 text-center">Experience & Education</h1>
         <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
         <p className="z-10 text-white">
