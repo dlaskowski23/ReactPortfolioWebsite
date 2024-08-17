@@ -26,15 +26,14 @@ const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-      <nav className="font-bold text-xl bg-gray-400 bg-opacity-75 text-black p-4 sticky top-0 z-50">
+      <nav className="font-bold text-xl bg-black bg-opacity-50 text-white p-4 sticky top-0 z-50">
           <div className="flex justify-between items-center container mx-auto">
             <div className="hidden md:flex flex-1 items-center justify-center space-x-8">
               <a href="#home" className="hover:text-gray-300">Home</a>
               <a href="#aboutme" className="hover:text-gray-300">About Me</a>
               <a href="#skills" className="hover:text-gray-300">Skills</a>
               <a href="#projects" className="hover:text-gray-300">Projects</a>
-              <a href="#education&experience" className="hover:text-gray-300">Education</a>
-              <a href="#education&experience" className="hover:text-gray-300">Experience</a>
+              <a href="#education&experience" className="hover:text-gray-300">Education & Experience</a>
               <a href="#contact" className="hover:text-gray-300">Contact</a>
             </div>
             <button
@@ -60,8 +59,7 @@ const Navbar = () => {
             <a href="#aboutme" className="hover:text-gray-300 mb-3" onClick={closeMenu}>About Me</a>
             <a href="#skills" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Skills</a>
             <a href="#projects" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Projects</a>
-            <a href="#education" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Education</a>
-            <a href="#experience" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Experience</a>
+            <a href="#education" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Experience & Education</a>
             <a href="#contact" className="hover:text-gray-300 mb-3" onClick={closeMenu}>Contact</a>
           </div>
 

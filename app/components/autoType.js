@@ -16,7 +16,7 @@ function AutoType() {
     });
 
     return (
-        <p className="text-white text-3xl mt-5">
+        <p className="text-white text-5xl mt-5">
         I'm a{" "}
         <span style={{ fontWeight: "bold", color: "Black" }}>{text}</span>
         <span style={{ color: "black" }}>
