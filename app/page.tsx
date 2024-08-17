@@ -1,4 +1,4 @@
-"use client";  // Add this line at the top
+"use client";
 
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -302,8 +302,8 @@ const ProjectsSec = () => {
           <div className="flex flex-1 flex-col  mr-9 items-center">
             <h1 className="mb-2 text-2xl font-bold">AttendEazy</h1>
             <p className=" text-base  mb-2">
-              Within CS 485, my group and I worked on a full-stack project, with the goal of using agile methodologies.
-              We created a digital attendance app called AttendEazy, which allows people who teach to keep the attendance of their students easily.
+              Within CS 485, my group and I worked on a full-stack project with the goal of using agile methodologies.
+              We created a digital attendance app called AttendEazy, which allows people who teach to keep the attendance of their students.
               The front-end is a combination of React + Vite with tailwind CSS used for the styling. The backend uses AWS & terraform,
               NodeJS & Express, and MySQL for the data base. Within the website you are able to create an account, set up classes with their respective students,
               and view a report with charts and graphs imported from the chatJS library to keep up to date with your classroom attendance.
@@ -518,7 +518,7 @@ const ContactUs = () => {
 
       <section className="flex flex-col items-center justify-center mb-10" id="contact">
           <button disabled className="outline outline-white p-3 rounded-3xl text-white font-bold text-lg mt-10 z-10 shadow-xl ">
-            Send me an email | enter your name, email address, and a message
+            Send me an email | Enter your name, email address, and a message
           </button>
           <section className='mt-10 bg-white z-10 rounded-2xl outline shadow-lg  outline-white outline-offset-4'>
             <form className='m-4 p-2 rounded-2xl z-10' id="contact-form" ref={form} onSubmit={sendEmail}>
