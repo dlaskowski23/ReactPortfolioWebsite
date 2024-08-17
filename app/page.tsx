@@ -462,35 +462,40 @@ const EduAndExpSec = () => {
 
 const ContactUs = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [stateMessage, setStateMessage] = useState(null);
-  const form = useRef();
+  const [stateMessage, setStateMessage] = useState<string | null>(null);
+  const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e) => {
-    e.persist();
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    emailjs
-      .sendForm('service_zmz4est', 'template_d7jjmlm', form.current, {
-        publicKey: 'bPUM1elXyvZcq_KtE',
-      })
-      .then(
-        (result) => {
-          setStateMessage('Message sent!');
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000);
-        },
-        (error) => {
-          setStateMessage('Something went wrong, please try again later');
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000); 
-        }
-      );
     
-    e.target.reset();
+    if (form.current) {
+      emailjs
+        .sendForm(
+          'service_zmz4est',
+          'template_d7jjmlm',
+          form.current,
+          'bPUM1elXyvZcq_KtE'
+        )
+        .then(
+          (result) => {
+            setStateMessage('Message sent!');
+            setIsSubmitting(false);
+            setTimeout(() => {
+              setStateMessage(null);
+            }, 5000);
+          },
+          (error) => {
+            setStateMessage('Something went wrong, please try again later');
+            setIsSubmitting(false);
+            setTimeout(() => {
+              setStateMessage(null);
+            }, 5000); 
+          }
+        );
+      
+      e.currentTarget.reset();
+    }
   };
 
   return (
