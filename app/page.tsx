@@ -86,7 +86,7 @@ const NameSec = () => {
         </div>
 
         <div className="z-10">
-          <h1 className="text-white font-semibold text-8xl ">
+          <h1 className="text-white font-semibold text-5xl md:text-8xl ">
             David Laskowski
           </h1>
           <p>
@@ -115,7 +115,7 @@ const DescriptionSec = () => {
         className="flex flex-col items-center bg-black justify-center py-10 px-4"
         id="aboutme"
       >
-        <h1 className="text-white font-extrabold text-7xl mt-10 z-10">
+        <h1 className="text-white font-extrabold md:text-7xl text-4xl mt-10 z-10">
           About Me
         </h1>
         <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
@@ -124,7 +124,7 @@ const DescriptionSec = () => {
             <Image
               src={AboutMePic}
               alt="David Laskowski"
-              className="border rounded-3xl"
+              className="border rounded-3xl outline outline-white outline-offset-4"
               width={420}
 
             />
@@ -139,29 +139,29 @@ const DescriptionSec = () => {
               Cyber Security. Some of my hobbies include snowboarding, fitness,
               fishing, and bowling.
             </p>
-            <div className="flex justify-center space-x-5">
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-2 md:flex justify-center">
               <Image
                 src={SBicon}
                 alt="SnowBoardIcon"
-                className="bg-white p-2 rounded-full shadow-xl hover:scale-110 transition-transform"
+                className="bg-white p-2 outline outline-white outline-offset-4 rounded-full shadow-xl hover:scale-110 transition-transform"
                 width={100}
               />
               <Image
                 src={WeightsIcon}
                 alt="WeightsIcon"
-                className="hover:scale-110 transition-transform bg-white p-2 rounded-full shadow-xl"
+                className="hover:scale-110 transition-transform bg-white outline outline-white outline-offset-4 p-2 rounded-full shadow-xl"
                 width={100}
               />
               <Image
                 src={FishingIcon}
                 alt="WeightsIcon"
-                className="hover:scale-110 transition-transform bg-white p-2 rounded-full shadow-xl"
+                className="hover:scale-110 transition-transform bg-white outline outline-white outline-offset-4 p-2 rounded-full shadow-xl"
                 width={100}
               />
               <Image
                 src={BowlingPic}
                 alt="WeightsIcon"
-                className="hover:scale-110 transition-transform bg-white p-2 rounded-full shadow-xl"
+                className="hover:scale-110 transition-transform bg-white outline outline-white outline-offset-4 p-2 rounded-full shadow-xl"
                 width={100}
               />
             </div>
@@ -177,11 +177,11 @@ const SkillsSec = () => {
         className="flex flex-col items-center justify-center mt-52 px-4"
         id="skills"
       >
-        <h1 className="text-white font-bold text-7xl mt-10 z-10">Skills</h1>
+        <h1 className="text-white font-bold md:text-7xl text-5xl mt-10 z-10">Skills</h1>
         <h2 className="text-white font-semibold text-3xl mb-10 z-10">~</h2>
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">Languages</h3>
         
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mx-auto p-4 z-10 mt-6">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mx-auto p-4 z-10 mt-6 outline outline-white outline-offset-4 rounded-3xl">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={PythonIcon} alt="Python Icon" />
             <h1 className="text-lg font-semibold mt-2 text-center">Python</h1>
@@ -226,7 +226,7 @@ const SkillsSec = () => {
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">
           Libraries & Frameworks
         </h3>
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mx-auto p-4 z-10 mt-6">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-2 mx-auto p-4 z-10 mt-6 outline outline-white outline-offset-4 rounded-3xl">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={TypeScriptIcon} alt="TypeScript Icon" className="fill-current" />
             <h1 className="text-lg font-semibold mt-2 md:text-center text-left">TypeScript</h1>
@@ -251,7 +251,7 @@ const SkillsSec = () => {
         <h3 className="text-white font-semibold text-3xl mt-10 z-10">
           Developer Tools
         </h3>
-        <div className="grid grid-cols-3 md:grid-cols-3 gap-2 mx-auto p-4 z-10 mt-6">
+        <div className="grid grid-cols-3 outline outline-white outline-offset-4 rounded-3xl md:grid-cols-5 gap-2 mx-auto p-4 z-10 mt-6">
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={GitHubIcon} alt="GitHub" className="fill-current" width={128}/>
             <h1 className="text-lg font-semibold mt-2 text-center">GitHub</h1>
@@ -268,13 +268,13 @@ const SkillsSec = () => {
             <Image src={LinuxIcon} alt="Linux" className="fill-current" width={128}/>
             <h1 className="text-lg font-semibold mt-2 text-center">Linux</h1>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
+          {/* <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={VercelIcon} alt="Vercel Icon" className="fill-current" width={128} />
             <h1 className="text-lg font-semibold mt-2 text-center">Vercel</h1>
-          </div>
+          </div> */}
           <div className="bg-white p-4 rounded-lg shadow-lg hover:scale-110 transition-transform">
             <Image src={MongoDBIcon} alt="Vercel Icon" className="fill-current" width={128} />
-            <h1 className="text-lg font-semibold mt-2 text-center">MongoDB</h1>
+            <h1 className="text-lg font-semibold mt-2">MongoDB</h1>
           </div>
         </div>
       </section>
@@ -286,20 +286,20 @@ const ProjectsSec = () => {
     <section className="flex flex-col items-center justify-center mt-52 px-4" id="projects">
 
         <div className="flex flex-col items-center justify-center py-10 px-4">
-          <h1 className="text-white font-bold text-7xl mt-10 mb-6 text-center z-10">Projects</h1>
+          <h1 className="text-white font-bold md:text-7xl text-5xl mt-10 mb-6 text-center z-10">Projects</h1>
           <h2 className="text-white font-semibold text-3xl mb-3 z-10">~</h2>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mb-10 mx-auto p-4 z-10 shadow-xl">
+        <div className=" bg-white outline outline-white outline-offset-4 rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mb-10 mx-auto p-4 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={AttendEazyPic}
               alt="David Laskowski"
-              className=" border rounded-2xl outline outline-black shadow-lg mt-7"
-              width={450}
+              className=" border rounded-2xl outline outline-black shadow-lg mt-1"
+              width={500}
             />
           </div>
-          <div className="flex flex-1 flex-col  mr-9 items-center">
+          <div className="flex flex-1 flex-col md:mr-9 md:ml-0 ml-5 items-center">
             <h1 className="mb-2 text-2xl font-bold">AttendEazy</h1>
             <p className=" text-base  mb-2">
               Within CS 485, my group and I worked on a full-stack project with the goal of using agile methodologies.
@@ -319,16 +319,16 @@ const ProjectsSec = () => {
           </div>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl">
+        <div className=" bg-white outline outline-white outline-offset-4 rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={SpaceCoordPic}
               alt="David Laskowski"
-              className=" border rounded-2xl outline outline-black shadow-lg py-5"
-              width={450}
+              className=" border rounded-2xl outline outline-black shadow-lg "
+              width={500}
             />
           </div>
-          <div className="flex flex-1 flex-col py-6 mr-9 items-center">
+          <div className="flex flex-1 flex-col py-6 md:mr-9 md:ml-0 ml-5 items-center">
             <h1 className="mb-2 text-2xl font-bold">Space Satellite Coordinator </h1>
             <p className=" text-base  mb-9">
               At NJIT's 2023 GirlHacks Hackathon, our team won the "Best Use of StreamLit" award,
@@ -352,16 +352,16 @@ const ProjectsSec = () => {
           </div>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
+        <div className=" bg-white outline outline-white outline-offset-4 rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={WebScraperPic}
               alt="Web Scaper"
-              className="border rounded-2xl outline outline-black shadow-lg py-5"
-              width={450}
+              className="border rounded-2xl outline outline-black shadow-lg"
+              width={500}
             />
           </div>
-          <div className="flex flex-1 flex-col py-5 mr-9 items-center">
+          <div className="flex flex-1 flex-col py-2 md:mr-9 md:ml-0 ml-5 items-center">
             <h1 className="text-2xl font-bold mb-2">Yahoo Finance Web Scraper</h1>
             <p className="text-black text-base mb-3 md:mb-2">
               I developed a real-time data fetching application that scrapes and displays 
@@ -381,19 +381,19 @@ const ProjectsSec = () => {
           </div>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
+        <div className=" bg-white outline outline-white outline-offset-4 rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={GlobalTempPic}
               alt="globalTempPic"
-              className="border rounded-2xl outline outline-black shadow-lg py-5"
-              width={450}
-              height={375}
+              className="border rounded-2xl outline outline-black shadow-lg"
+              width={500}
+              height={500}
             />
           </div>
-          <div className="flex flex-1 flex-col py-6 mr-9 items-center">
+          <div className="flex flex-1 flex-col py-6 md:mr-9 md:ml-0 ml-5 items-center">
             <h1 className="text-2xl font-bold mb-4">Global Temperature Analysis</h1>
-            <p className="text-black text-base mb-6 md:mb-10">
+            <p className="text-black text-base mb-6 md:mb-6">
               My group and I completed our data science project analyzing the recorded global temperature dataset from UC Berkeley.
               The aim is to uncover trends and patterns in global temperatures over time using advanced 
               statistical and machine learning techniques which were simple linear regression and Random Forest algorithm.
@@ -408,16 +408,16 @@ const ProjectsSec = () => {
           </div>
         </div>
 
-        <div className=" bg-white rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
+        <div className=" bg-white outline outline-white outline-offset-4 rounded-2xl grid grid-cols md:grid-cols-2 gap-10 max-w-6xl mx-auto p-4 mt-10 z-10 shadow-xl">
           <div className="mx-auto">
             <Image
               src={LexicalAnalyzerPic}
               alt="Lexical Analyzer Pic"
-              className="border rounded-2xl outline outline-black shadow-lg py-5"
-              width={450}
+              className="border rounded-2xl outline outline-black shadow-lg"
+              width={500}
             />
           </div>
-          <div className="flex flex-1 flex-col mr-9 items-center">
+          <div className="flex flex-1 flex-col md:mr-9 md:ml-0 ml-5 items-center">
             <h1 className="text-2xl font-bold mb-1 py-2">Lexical Analyzer</h1>
             <p className="text-black text-base  mb-2 md:mb-6">
               In my Lexical Analyzer project, coded in C, the first component 
@@ -442,23 +442,30 @@ const ProjectsSec = () => {
 };
 
 const EduAndExpSec = () => {
-  return(
+  return (
     <section className="flex flex-col items-center justify-center mt-52 px-4" id="education&experience">
-      <h1 className="text-white font-bold text-7xl mt-10 z-10 text-center">Experience & Education</h1>
+      <h1 className="text-white font-bold md:text-7xl text-3xl mt-10 z-10 text-center">Experience & Education</h1>
       <div className="mt-6 z-10 text-white space-x-5">
         <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
           <a href="/attachments/DavidLaskowskiResume.pdf" target="_blank">VIEW</a>
         </button>
-        <button className="mt-6 rounded-2xl border py-1 px-4  hover:scale-110 transition-transform">
+        <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
           <a href="/attachments/DavidLaskowskiResume.pdf" download="DavidLaskowskiResume">DOWNLOAD</a>
         </button>
       </div>
-      <div className="z-10">
-        <iframe className=" outline mt-10 outline-white outline-offset-4 shadow-lg rounded-3xl" width={900} height={1000} src="/attachments/DavidLaskowskiResume.pdf"></iframe>
+      <div className="z-10 w-full flex justify-center">
+        {/* For mobile devices, use a responsive iframe, for desktop use fixed width */}
+        <iframe 
+          className="outline mt-10 outline-white outline-offset-4 shadow-lg rounded-3xl 
+            w-full h-96 sm:w-full sm:h-96 md:w-3/4 md:h-[800px] lg:w-[900px] lg:h-[1000px]"
+          src="/attachments/DavidLaskowskiResume.pdf">
+        </iframe>
       </div>
     </section>
   );
 };
+
+
 
 const ContactUs = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -501,7 +508,7 @@ const ContactUs = () => {
   return (
     <div>      
       <section className="flex flex-col items-center justify-center mt-52 mb-5" id="contact">
-        <h1 className="text-white font-bold text-5xl mt-10 z-10">
+        <h1 className="text-white font-bold md:text-7xl text-4xl mt-10 z-10">
           CONTACT
         </h1>
         <h2 className="text-white font-bold text-3xl mb-10 z-10">~</h2>
@@ -522,25 +529,49 @@ const ContactUs = () => {
       </section>
 
       <section className="flex flex-col items-center justify-center mb-10" id="contact">
-          <button disabled className="outline outline-white p-3 rounded-3xl text-white font-bold text-lg mt-10 z-10 shadow-xl ">
-            Send me an email | Enter your name, email address, and a message
-          </button>
-          <section className='mt-10 bg-white z-10 rounded-2xl outline shadow-lg  outline-white outline-offset-4'>
-            <form className='m-4 p-2 rounded-2xl z-10' id="contact-form" ref={form} onSubmit={sendEmail}>
-              <div className='mb-2 space-x-10'>
-                <input className=' border border-black rounded-xl shadow-lg  text-center p-2 outuline outline-black outline-offset-1' type="text" name="from_name" placeholder="name" required />
-                <input className='border border-black shadow-lg rounded-xl text-center p-2 outuline outline-black outline-offset-1'type="email" name="user_email" placeholder="email" required />
-              </div>
-              <div className='justify-center flex mt-6'>            
-                <textarea className='border border-black rounded-2xl items-center shadow-lg text-center p-2 w-96 outuline outline-black outline-offset-1' id="message" name="message" placeholder="Write me a message and let's connect!" required></textarea>
-              </div>
-              <div className='justify-center flex mt-6'>
-                <input className='bg-lime-500 hover:bg-lime-400 button outline outline-lime-400 outline-offset-2 text-white font-bold py-2 px-4 rounded shadow-xl' type="submit" value="Send" disabled={isSubmitting} />
-                {stateMessage && <p className='ml-5 outline outline-black p-2 rounded-3xl'>{stateMessage}</p>}
-              </div>
-            </form>
-          </section>
+        <button disabled className="outline outline-white m-4 p-3 rounded-3xl text-white font-bold md:text-lg text-sm mt-10 z-10 shadow-xl">
+          Send me an email | Enter your name, email address, and a message
+        </button>
+        <section className="mt-10 bg-white z-10 rounded-2xl outline shadow-lg outline-white outline-offset-4 p-4 w-full max-w-72 md:max-w-xl mx-auto">
+          <form className="space-y-4" id="contact-form" ref={form} onSubmit={sendEmail}>
+            <div className="flex flex-col space-y-4">
+              <input
+                className="border border-black rounded-xl shadow-lg text-center p-2 outline outline-black outline-offset-1"
+                type="text"
+                name="from_name"
+                placeholder="Name"
+                required
+              />
+              <input
+                className="border border-black rounded-xl shadow-lg text-center p-2 outline outline-black outline-offset-1"
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div className="flex justify-center mt-6">
+              <textarea
+                className="border border-black rounded-2xl shadow-lg text-center p-2 w-full outline outline-black outline-offset-1"
+                id="message"
+                name="message"
+                placeholder="Write me a message and let's connect!"
+                required
+              />
+            </div>
+            <div className="flex justify-center mt-6">
+              <input
+                className="bg-lime-500 hover:bg-lime-400 button outline outline-lime-400 outline-offset-2 text-white font-bold py-2 px-4 rounded shadow-xl"
+                type="submit"
+                value="Send"
+                disabled={isSubmitting}
+              />
+              {stateMessage && <p className="ml-5 outline outline-black p-2 rounded-3xl">{stateMessage}</p>}
+            </div>
+          </form>
+        </section>
       </section>
+
 
       <section className="z-10">
         <footer className="bg-black relative bg-opacity-50 text-white text-center p-4 z-10">
