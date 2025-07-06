@@ -54,7 +54,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
-import { FaPhoneSquare } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -721,7 +720,7 @@ const EduAndExpSec = () => {
         <iframe
           className="outline mt-10 outline-white outline-offset-4 shadow-lg rounded-3xl 
             w-full h-96 sm:w-full sm:h-96 md:w-3/4 md:h-[800px] lg:w-[900px] lg:h-[1000px]"
-          src="/attachments/DavidLaskowskiResume.pdf"
+          src="/attachments/DavidResume.pdf"
         ></iframe>
       </div>
     </section>
