@@ -108,7 +108,7 @@ const NameSec = () => {
           <a href="https://github.com/dlaskowski23" target="_blank">
             <AiFillGithub className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
           </a>
-          <a href="/attachments/DavidLaskowskiResume.pdf" target="_blank">
+          <a href="/attachments/DavidResume.pdf" target="_blank">
             <CgFileDocument className="text-white hover:text-gray-300 hover:scale-110 transition-transform" />
           </a>
         </div>
@@ -702,15 +702,12 @@ const EduAndExpSec = () => {
       </h1>
       <div className="mt-6 z-10 text-white space-x-5">
         <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
-          <a href="/attachments/DavidLaskowskiResume.pdf" target="_blank">
+          <a href="/attachments/DavidResume.pdf" target="_blank">
             VIEW
           </a>
         </button>
         <button className="mt-6 rounded-2xl border py-1 px-4 hover:scale-110 transition-transform">
-          <a
-            href="/attachments/DavidLaskowskiResume.pdf"
-            download="DavidLaskowskiResume"
-          >
+          <a href="/attachments/DavidResume.pdf" download="DavidResume">
             DOWNLOAD
           </a>
         </button>
