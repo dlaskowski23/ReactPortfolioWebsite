@@ -43,7 +43,7 @@ import PowerAutomate from "../app/attachments/SkillsIcons/DevTools/PowerAutomate
 import Bowl1 from "../app/attachments/ProjectPics/bowl1.png";
 import Bowl2 from "../app/attachments/ProjectPics/bowl2.png";
 import Bowl3 from "../app/attachments/ProjectPics/bowl3.png";
-import PeaceOfMind from "../app/attachments/ProjectPics/PeaceOfMind.png";
+import PeaceOfMind from "../app/attachments/ProjectPics/peaceOfMind.png";
 import AttendEazyPic from "../app/attachments/ProjectPics/attendEazyPic.png";
 import SpaceCoordPic from "../app/attachments/ProjectPics/SpaceCoordPic.png";
 import WebScraperPic from "../app/attachments/ProjectPics/WebScraperPic.jpg";
